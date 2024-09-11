@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lexend Deca", sans-serif;
+    background-color: #f2f2f2;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+.container{
+    max-width: 920px;
+    margin: 0 auto;
+    .content{
+        display: flex;
+    .card_sedans{
+        max-width: 307px;
+        background: #e28625;
+        border-radius:8px 0px 0px 8px;
+        padding: 48px;
+        .card-img{
+            margin-bottom: 35px;
+        }
+        .card-text{
+            h2{
+                font-family: "Big Shoulders Display", sans-serif;
+                font-weight: 700;
+                font-size: 40px;
+                text-transform: uppercase;
+                color: #f2f2f2;
+                margin-bottom: 25px;
+            }
+            p{
+                font-family: "Lexend Deca", sans-serif;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 167%;
+                color: #fff;
+                opacity: 0.75;
+                width: 212px;
+                margin-bottom: 83px;
+            }
+            button{
+                padding: 11px 31px;
+                border-radius:25px;
+                font-family: "Lexend Deca", sans-serif;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 167%;
+                color: #e28625;
+                transition: 0.4s;
+                border: 2px solid transparent;
+                
+            }
+            button:hover{
+                color: #fff;
+                border: 2px solid #fff;
+                background:none;
+            }
+        }
+        
+    }
+    .card_suvs{
+        max-width: 307px;
+        background: #006971;
+        padding: 48px;
+        .card-img{
+            margin-bottom: 35px;
+        }
+        .card-text{
+            h2{
+                font-family: "Big Shoulders Display", sans-serif;
+                font-weight: 700;
+                font-size: 40px;
+                text-transform: uppercase;
+                color: #f2f2f2;
+                margin-bottom: 25px;
+            }
+            p{
+                font-family: "Lexend Deca", sans-serif;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 167%;
+                color: #fff;
+                opacity: 0.75;
+                width: 212px;
+                margin-bottom: 83px;
+            }
+            button{
+                padding: 11px 31px;
+                border-radius:25px;
+                font-family: "Lexend Deca", sans-serif;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 167%;
+                color: #006971;
+            
+                border: 2px solid transparent;
+                transition: 0.4s;
+            }
+            button:hover{
+                color: #fff;
+                border: 2px solid #fff;
+                background:none;
+            }
+        }
+    }
+    .card_luxury{
+        max-width: 307px;
+        background: #004140;
+        border-radius:0px 8px 8px 0px;
+        padding: 48px;
+        .card-img{
+            margin-bottom: 35px;
+        }
+        .card-text{
+            h2{
+                font-family: "Big Shoulders Display", sans-serif;
+                font-weight: 700;
+                font-size: 40px;
+                text-transform: uppercase;
+                color: #f2f2f2;
+                margin-bottom: 25px;
+            }
+            p{
+                font-family: "Lexend Deca", sans-serif;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 167%;
+                color: #fff;
+                opacity: 0.75;
+                margin-bottom: 83px;
+                width: 212px;
+            }
+            button{
+                padding: 11px 31px;
+                border-radius:25px;
+                font-family: "Lexend Deca", sans-serif;
+                font-weight: 400;
+                font-size: 15px;
+                
+                border: 2px solid transparent;
+                line-height: 167%;
+                color: #004140;
+                transition: 0.4s;
+            }
+            button:hover{
+                color: #fff;
+                border: 2px solid #fff;
+                background:none;
+            }
+        }
+    }
+    }
+}
+@media (max-width:900px) {
+    .container{
+        max-width: 375px;
+        margin: 0 auto;
+        .content{
+            display: flex;
+            flex-direction: column;
+            .card_sedans{
+                max-width: 327px;
+                background: #e28625;
+                border-radius:8px 8px 0px 0px;
+                padding: 48px;
+                .card-img{
+                    margin-bottom: 35px;
+                }
+                .card-text{
+                    h2{
+                        font-family: "Big Shoulders Display", sans-serif;
+                        font-weight: 700;
+                        font-size: 40px;
+                        text-transform: uppercase;
+                        color: #f2f2f2;
+                        margin-bottom: 25px;
+                    }
+                    p{
+                        font-family: "Lexend Deca", sans-serif;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 167%;
+                        color: #fff;
+                        opacity: 0.75;
+                        max-width: 231px;
+                        margin-bottom: 25px;
+                    }
+                    button{
+                        padding: 11px 31px;
+                        border-radius:25px;
+                        font-family: "Lexend Deca", sans-serif;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 167%;
+                        color: #e28625;
+                        transition: 0.4s;
+                    }
+                    button:hover{
+                        color: #fff;
+                        border: 2px solid #fff;
+                        background:none;
+                    }
+                }
+                
+            }
+            .card_suvs{
+            
+                max-width: 327px;
+                background: #006971;
+                padding: 48px;
+                .card-img{
+                    margin-bottom: 35px;
+                }
+                .card-text{
+                    h2{
+                        font-family: "Big Shoulders Display", sans-serif;
+                        font-weight: 700;
+                        font-size: 40px;
+                        text-transform: uppercase;
+                        color: #f2f2f2;
+                        margin-bottom: 25px;
+                    }
+                    p{
+                        font-family: "Lexend Deca", sans-serif;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 167%;
+                        color: #fff;
+                        opacity: 0.75;
+                        max-width: 231px;
+                        margin-bottom: 25px;
+                    }
+                    button{
+                        padding: 11px 31px;
+                        border-radius:25px;
+                        font-family: "Lexend Deca", sans-serif;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 167%;
+                        color: #006971;
+                        transition: 0.4s;
+                    }
+                    button:hover{
+                        color: #fff;
+                        border: 2px solid #fff;
+                        background:none;
+                    }
+                }
+            }
+            .card_luxury{
+            
+                max-width: 327px;
+                background: #004140;
+                border-radius:0px 0px 8px 8px;
+                padding: 48px;
+                .card-img{
+                    margin-bottom: 35px;
+                }
+                .card-text{
+                    h2{
+                        font-family: "Big Shoulders Display", sans-serif;
+                        font-weight: 700;
+                        font-size: 40px;
+                        text-transform: uppercase;
+                        color: #f2f2f2;
+                        margin-bottom: 25px;
+                    }
+                    p{
+                        font-family: "Lexend Deca", sans-serif;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 167%;
+                        color: #fff;
+                        opacity: 0.75;
+                        margin-bottom: 25px;
+                        max-width: 231px;
+                    }
+                    button{
+                        padding: 11px 31px;
+                        border-radius:25px;
+                        font-family: "Lexend Deca", sans-serif;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 167%;
+                        color: #004140;
+                        transition: 0.4s;
+                    }
+                    button:hover{
+                        color: #fff;
+                        border: 2px solid #fff;
+                        background:none;
+                    }
+                }
+            }
+        }
+    }
+}
